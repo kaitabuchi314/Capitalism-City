@@ -3,12 +3,14 @@
 1. Drop { onto new lines. There is an exeption
 2. Don't drop { onto new lines for namespaces
 3. For namespaces, leave an empty line at the start and end of the namespace eg:
-```cpp namespace Billy {
+```cpp
+namespace Billy {
 
 // code here
 // code here
 
-}```
+}
+```
 4. Capital letters for functions
 5. Lower-case for normal variables.
 6. Use m_Variable (capital first name letter), s_Variable (static, with capital first name letter), and for global inline variables, just use GlobalVariable, with capital first letter.
